@@ -1,0 +1,185 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body and font styling */
+  body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(45deg, #ff6b6b, #f0e130, #37b0a6);
+    color: #fff;
+    padding: 0;
+    margin: 0;
+  }
+  
+  /* Header styling */
+  header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-bottom: 2px solid #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+  }
+  
+  p {
+    font-size: 18px;
+    font-weight: 300;
+  }
+  
+  /* Courses Section */
+  .courses {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-top: 40px;
+  }
+  
+  .course-card {
+    background-color: #2f3542;
+    border-radius: 10px;
+    width: 280px;
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease;
+    position: relative;
+  }
+  
+  .course-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  }
+  
+  .course-image {
+    height: 160px;
+    background: linear-gradient(45deg, #661b5c, #ff6a00);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .course-card:hover .course-image {
+    background: linear-gradient(45deg, #37b0a6, #ff6b6b);
+  }
+  
+  h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-decoration: dashed;
+  }
+  
+  p {
+    font-size: 16px;
+    font-weight: 300;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    background-color: #ff6b6b;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #ff4747;
+    transform: scale(1.05);
+  }
+  
+  /* Making the course card links behave correctly */
+  .course-link {
+    color: inherit;
+    text-decoration: none;
+    display: block;
+    height: 100%;
+  }
+  
+  /* Footer styling */
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.4);
+    margin-top: 40px;
+    border-top: 2px solid #fff;
+  }
+  
+  footer p {
+    font-size: 14px;
+    color: #bbb;
+  }
+  /* Header styling */
+header {
+  background: linear-gradient(135deg, #2f3542, #1e1e2f);
+  color: #fff;
+  padding: 20px 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  animation: slideDown 0.8s ease-in-out;
+}
+
+header .logo {
+  font-size: 24px;
+  font-weight: 700;
+  display: inline-block;
+  color: rgb(239, 233, 213);
+  animation: fadeIn 1s ease-in-out;
+  text-align: left;
+}
+
+header nav {
+  display: inline-block;
+  margin-left: 40px;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 20px;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+header nav ul li a:hover {
+  color: #ff6b6b;
+}
+
+header .btn {
+  float: right;
+  background: #ff6b6b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease, transform 0.3s ease;
+}
+
+header .btn:hover {
+  background: #ff4747;
+  transform: scale(1.05);
+}
+
+  
